@@ -1,0 +1,2 @@
+hidden_layers=3,hidden_neurons=[300, 100, 100, 50],Learning_rate=0.010,batch_size=100,Acc=0.00000
+hidden_layers=3,hidden_neurons=[300, 100, 100, 50],Learning_rate=0.010,batch_size=100,Acc=0.00000

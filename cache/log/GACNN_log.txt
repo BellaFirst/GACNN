@@ -1,0 +1,123 @@
+2021-01-26 14:36:24,613 - Train.py[line:96] - INFO : ==> Preparing dataset <==
+2021-01-26 14:36:24,665 - Train.py[line:101] - INFO : ==> Loading model <==
+2021-01-26 14:36:28,820 - Train.py[line:110] - INFO : ==> Waiting Train <==
+2021-01-26 14:36:39,819 - Train.py[line:66] - INFO : Epoch:1,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 14:36:50,719 - Train.py[line:66] - INFO : Epoch:2,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 14:37:01,637 - Train.py[line:66] - INFO : Epoch:3,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 14:37:13,025 - Train.py[line:66] - INFO : Epoch:4,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 14:37:23,959 - Train.py[line:66] - INFO : Epoch:5,Train_Loss:2.30257,Valid_Loss:2.30257 
+2021-01-26 14:37:34,860 - Train.py[line:66] - INFO : Epoch:6,Train_Loss:2.30257,Valid_Loss:2.30257 
+2021-01-26 14:37:45,761 - Train.py[line:66] - INFO : Epoch:7,Train_Loss:2.30257,Valid_Loss:2.30257 
+2021-01-26 14:37:56,626 - Train.py[line:66] - INFO : Epoch:8,Train_Loss:2.30257,Valid_Loss:2.30257 
+2021-01-26 14:38:07,500 - Train.py[line:66] - INFO : Epoch:9,Train_Loss:2.30256,Valid_Loss:2.30256 
+2021-01-26 14:38:18,361 - Train.py[line:66] - INFO : Epoch:10,Train_Loss:2.30256,Valid_Loss:2.30256 
+2021-01-26 14:38:29,264 - Train.py[line:66] - INFO : Epoch:11,Train_Loss:2.30256,Valid_Loss:2.30256 
+2021-01-26 14:38:40,127 - Train.py[line:66] - INFO : Epoch:12,Train_Loss:2.30256,Valid_Loss:2.30256 
+2021-01-26 14:38:50,987 - Train.py[line:66] - INFO : Epoch:13,Train_Loss:2.30255,Valid_Loss:2.30255 
+2021-01-26 14:39:01,854 - Train.py[line:66] - INFO : Epoch:14,Train_Loss:2.30255,Valid_Loss:2.30255 
+2021-01-26 14:39:12,717 - Train.py[line:66] - INFO : Epoch:15,Train_Loss:2.30255,Valid_Loss:2.30255 
+2021-01-26 14:39:23,614 - Train.py[line:66] - INFO : Epoch:16,Train_Loss:2.30255,Valid_Loss:2.30254 
+2021-01-26 14:39:34,490 - Train.py[line:66] - INFO : Epoch:17,Train_Loss:2.30254,Valid_Loss:2.30254 
+2021-01-26 14:39:45,355 - Train.py[line:66] - INFO : Epoch:18,Train_Loss:2.30254,Valid_Loss:2.30254 
+2021-01-26 14:39:56,221 - Train.py[line:66] - INFO : Epoch:19,Train_Loss:2.30254,Valid_Loss:2.30254 
+2021-01-26 14:40:07,097 - Train.py[line:66] - INFO : Epoch:20,Train_Loss:2.30253,Valid_Loss:2.30253 
+2021-01-26 14:40:17,987 - Train.py[line:66] - INFO : Epoch:21,Train_Loss:2.30253,Valid_Loss:2.30253 
+2021-01-26 14:40:28,377 - Train.py[line:96] - INFO : ==> Preparing dataset <==
+2021-01-26 14:40:28,441 - Train.py[line:101] - INFO : ==> Loading model <==
+2021-01-26 14:40:32,506 - Train.py[line:110] - INFO : ==> Waiting Train <==
+2021-01-26 14:40:43,690 - Train.py[line:66] - INFO : Epoch:1,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 14:40:55,335 - Train.py[line:66] - INFO : Epoch:2,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 14:41:06,847 - Train.py[line:66] - INFO : Epoch:3,Train_Loss:2.30257,Valid_Loss:2.30257 
+2021-01-26 14:41:18,031 - Train.py[line:66] - INFO : Epoch:4,Train_Loss:2.30257,Valid_Loss:2.30257 
+2021-01-26 14:41:29,605 - Train.py[line:66] - INFO : Epoch:5,Train_Loss:2.30257,Valid_Loss:2.30256 
+2021-01-26 14:41:41,183 - Train.py[line:66] - INFO : Epoch:6,Train_Loss:2.30256,Valid_Loss:2.30256 
+2021-01-26 14:41:52,520 - Train.py[line:66] - INFO : Epoch:7,Train_Loss:2.30256,Valid_Loss:2.30255 
+2021-01-26 14:42:03,859 - Train.py[line:66] - INFO : Epoch:8,Train_Loss:2.30255,Valid_Loss:2.30255 
+2021-01-26 14:42:15,433 - Train.py[line:66] - INFO : Epoch:9,Train_Loss:2.30255,Valid_Loss:2.30255 
+2021-01-26 14:42:26,809 - Train.py[line:66] - INFO : Epoch:10,Train_Loss:2.30254,Valid_Loss:2.30254 
+2021-01-26 14:58:51,826 - Train.py[line:102] - INFO : ==> Preparing dataset <==
+2021-01-26 14:58:51,885 - Train.py[line:107] - INFO : ==> Loading model <==
+2021-01-26 14:58:56,071 - Train.py[line:116] - INFO : ==> Waiting Train <==
+2021-01-26 14:59:07,142 - Train.py[line:72] - INFO : Epoch:1,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 14:59:17,996 - Train.py[line:72] - INFO : Epoch:2,Train_Loss:2.30258,Valid_Loss:2.30257 
+2021-01-26 14:59:28,842 - Train.py[line:72] - INFO : Epoch:3,Train_Loss:2.30257,Valid_Loss:2.30257 
+2021-01-26 14:59:39,724 - Train.py[line:72] - INFO : Epoch:4,Train_Loss:2.30257,Valid_Loss:2.30257 
+2021-01-26 14:59:50,573 - Train.py[line:72] - INFO : Epoch:5,Train_Loss:2.30257,Valid_Loss:2.30256 
+2021-01-26 15:00:01,417 - Train.py[line:72] - INFO : Epoch:6,Train_Loss:2.30256,Valid_Loss:2.30256 
+2021-01-26 15:00:12,268 - Train.py[line:72] - INFO : Epoch:7,Train_Loss:2.30256,Valid_Loss:2.30256 
+2021-01-26 15:00:23,148 - Train.py[line:72] - INFO : Epoch:8,Train_Loss:2.30255,Valid_Loss:2.30255 
+2021-01-26 15:00:33,989 - Train.py[line:72] - INFO : Epoch:9,Train_Loss:2.30255,Valid_Loss:2.30255 
+2021-01-26 15:00:44,836 - Train.py[line:72] - INFO : Epoch:10,Train_Loss:2.30255,Valid_Loss:2.30254 
+2021-01-26 15:02:38,149 - Train.py[line:101] - INFO : ==> Preparing dataset <==
+2021-01-26 15:02:38,208 - Train.py[line:106] - INFO : ==> Loading model <==
+2021-01-26 15:02:42,363 - Train.py[line:115] - INFO : ==> Waiting Train <==
+2021-01-26 15:02:53,151 - Train.py[line:72] - INFO : Epoch:1,Train_Loss:2.30259,Valid_Loss:2.30258 
+2021-01-26 15:03:12,126 - Train.py[line:101] - INFO : ==> Preparing dataset <==
+2021-01-26 15:03:12,173 - Train.py[line:106] - INFO : ==> Loading model <==
+2021-01-26 15:03:16,338 - Train.py[line:115] - INFO : ==> Waiting Train <==
+2021-01-26 15:03:27,022 - Train.py[line:72] - INFO : Epoch:1,Train_Loss:2.30259,Valid_Loss:2.30258 
+2021-01-26 15:03:37,594 - Train.py[line:72] - INFO : Epoch:2,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:03:48,161 - Train.py[line:72] - INFO : Epoch:3,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:03:48,161 - Train.py[line:119] - INFO : ==> Waiting Test <==
+2021-01-26 15:05:32,814 - Train.py[line:103] - INFO : ==> Preparing dataset <==
+2021-01-26 15:05:32,868 - Train.py[line:108] - INFO : ==> Loading model <==
+2021-01-26 15:05:37,039 - Train.py[line:117] - INFO : ==> Waiting Train <==
+2021-01-26 15:05:47,986 - Train.py[line:74] - INFO : Epoch:1,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:05:58,858 - Train.py[line:74] - INFO : Epoch:2,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:06:07,575 - Train.py[line:103] - INFO : ==> Preparing dataset <==
+2021-01-26 15:06:07,633 - Train.py[line:108] - INFO : ==> Loading model <==
+2021-01-26 15:06:11,715 - Train.py[line:117] - INFO : ==> Waiting Train <==
+2021-01-26 15:07:37,196 - Train.py[line:103] - INFO : ==> Preparing dataset <==
+2021-01-26 15:07:37,255 - Train.py[line:108] - INFO : ==> Loading model <==
+2021-01-26 15:07:41,424 - Train.py[line:117] - INFO : ==> Waiting Train <==
+2021-01-26 15:07:52,205 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:07:52,228 - Train.py[line:74] - INFO : Epoch:1,Train_Loss:2.30259,Valid_Loss:2.30258 
+2021-01-26 15:08:02,909 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:08:02,913 - Train.py[line:74] - INFO : Epoch:2,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:08:14,209 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:08:14,212 - Train.py[line:74] - INFO : Epoch:3,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:08:14,212 - Train.py[line:121] - INFO : ==> Waiting Test <==
+2021-01-26 15:08:43,428 - Train.py[line:103] - INFO : ==> Preparing dataset <==
+2021-01-26 15:08:43,492 - Train.py[line:108] - INFO : ==> Loading model <==
+2021-01-26 15:08:47,592 - Train.py[line:117] - INFO : ==> Waiting Train <==
+2021-01-26 15:08:58,059 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:08:58,064 - Train.py[line:74] - INFO : Epoch:1,Train_Loss:2.30259,Valid_Loss:2.30259 
+2021-01-26 15:09:08,703 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:09:08,706 - Train.py[line:74] - INFO : Epoch:2,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:09:19,298 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:09:19,302 - Train.py[line:74] - INFO : Epoch:3,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:09:19,302 - Train.py[line:121] - INFO : ==> Waiting Test <==
+2021-01-26 15:09:55,191 - Train.py[line:104] - INFO : ==> Preparing dataset <==
+2021-01-26 15:09:55,245 - Train.py[line:109] - INFO : ==> Loading model <==
+2021-01-26 15:09:59,410 - Train.py[line:118] - INFO : ==> Waiting Train <==
+2021-01-26 15:10:10,411 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:10:10,416 - Train.py[line:74] - INFO : Epoch:1,Train_Loss:2.30259,Valid_Loss:2.30259 
+2021-01-26 15:10:21,323 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:10:21,326 - Train.py[line:74] - INFO : Epoch:2,Train_Loss:2.30259,Valid_Loss:2.30259 
+2021-01-26 15:10:32,249 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:10:32,252 - Train.py[line:74] - INFO : Epoch:3,Train_Loss:2.30259,Valid_Loss:2.30259 
+2021-01-26 15:10:32,252 - Train.py[line:122] - INFO : ==> Waiting Test <==
+2021-01-26 15:10:56,886 - Train.py[line:104] - INFO : ==> Preparing dataset <==
+2021-01-26 15:10:56,943 - Train.py[line:109] - INFO : ==> Loading model <==
+2021-01-26 15:11:01,018 - Train.py[line:118] - INFO : ==> Waiting Train <==
+2021-01-26 15:11:12,262 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:11:12,267 - Train.py[line:74] - INFO : Epoch:1,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:11:12,267 - Train.py[line:122] - INFO : ==> Waiting Test <==
+2021-01-26 15:26:25,376 - Train.py[line:104] - INFO : ==> Preparing dataset <==
+2021-01-26 15:26:25,428 - Train.py[line:109] - INFO : ==> Loading model <==
+2021-01-26 15:26:29,599 - Train.py[line:118] - INFO : ==> Waiting Train <==
+2021-01-26 15:26:40,122 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:26:40,127 - Train.py[line:74] - INFO : Epoch:1,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:26:40,127 - Train.py[line:122] - INFO : ==> Waiting Test <==
+2021-01-26 15:46:29,338 - Train.py[line:104] - INFO : ==> Preparing dataset <==
+2021-01-26 15:46:29,392 - Train.py[line:109] - INFO : ==> Loading model <==
+2021-01-26 15:46:33,588 - Train.py[line:118] - INFO : ==> Waiting Train <==
+2021-01-26 15:46:46,912 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:46:46,918 - Train.py[line:74] - INFO : Epoch:1,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:46:46,918 - Train.py[line:122] - INFO : ==> Waiting Test <==
+2021-01-26 15:47:45,590 - Train.py[line:104] - INFO : ==> Preparing dataset <==
+2021-01-26 15:47:45,644 - Train.py[line:109] - INFO : ==> Loading model <==
+2021-01-26 15:47:49,875 - Train.py[line:118] - INFO : ==> Waiting Train <==
+2021-01-26 15:48:00,760 - Train.py[line:68] - INFO : Save model to checkpoint 
+2021-01-26 15:48:00,765 - Train.py[line:74] - INFO : Epoch:1,Train_Loss:2.30258,Valid_Loss:2.30258 
+2021-01-26 15:48:00,765 - Train.py[line:122] - INFO : ==> Waiting Test <==
