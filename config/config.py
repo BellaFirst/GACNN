@@ -1,7 +1,7 @@
 PARA = dict(
     GACNN_params=dict(
-        epoch=1,
-        num_layers=[5, 10],  # 5表示下限，10表示上限
+        epoch=20,
+        num_layers=6,  # 5表示下限，10表示上限
         num_neurons=[16, 256],
         lr=[0.0001, 0.2],
         batch_size=[1, 2],  # 之后要重新乘以100

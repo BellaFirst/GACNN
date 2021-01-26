@@ -10,8 +10,9 @@ from torch.autograd import Variable
 from mmcv import Config
 import numpy as np
 from dataset import Mnist
-from models import MyFullConnect
+from models import MyFullConnect,LeNet5,MyFullConnect2,MyFC2
 from log import Logger
+
 
 def parser():
     parse = argparse.ArgumentParser(description='Pytorch Cifar10 Training')
@@ -92,11 +93,12 @@ def test(net, test_loader):
             _, predicted = torch.max(outputs.data, 1)
             total += labels.size(0)
             correct += (predicted == labels).sum()#.item()
-            acc = correct // total
-        return acc
+            # pdb.set_trace()
+        acc = correct.cpu().numpy() / total
+    return acc
 
 
-def GACNN(hidden_layers,hidden_neurons,lr,batch_size):
+def GACNN(hidden_neurons,lr,batch_size):
     args = parser()
     cfg = Config.fromfile(args.config)
     log = Logger(cfg.PARA.utils_paths.log_path+ 'GACNN' + '_log.txt',level='info')
@@ -107,11 +109,14 @@ def GACNN(hidden_layers,hidden_neurons,lr,batch_size):
     test_loader = mnist.Download_Test()
 
     log.logger.info('==> Loading model <==')
-    net = MyFullConnect(in_dim=cfg.PARA.mnist_params.in_dim,
-               hidden_layers=hidden_layers,
-               hidden_layer_neurons=hidden_neurons,#[16,32,32,64],
-               out_dim=cfg.PARA.mnist_params.out_dim)
+    # net = MyFullConnect(in_dim=cfg.PARA.mnist_params.in_dim,
+    #            hidden_layers=hidden_layers,
+    #            hidden_layer_neurons=hidden_neurons,#[16,32,32,64],
+    #            out_dim=cfg.PARA.mnist_params.out_dim)
+    # net = LeNet5()
+    net = MyFC2(in_dim=28*28, out_dim=10, neurons=hidden_neurons)
     net = net.cuda()
+    print(net)
     criterion = nn.CrossEntropyLoss().cuda()
     optimizer = optim.SGD(net.parameters(), lr=lr)#, momentum=cfg.PARA.train.momentum
 
@@ -125,16 +130,15 @@ def GACNN(hidden_layers,hidden_neurons,lr,batch_size):
     test_acc = test(net=net, test_loader=test_loader)
 
     with open(cfg.PARA.GACNN_params.save_data_txt,'a') as f:
-        f.write('hidden_layers=%d,hidden_neurons=%s,Learning_rate=%.03f,batch_size=%d,Acc=%.5f\n'
-                % (hidden_layers, str(hidden_neurons), lr, batch_size, test_acc))
+        f.write('hidden_neurons=%s,Learning_rate=%.03f,batch_size=%d,Acc=%.5f\n'
+                % (str(hidden_neurons), lr, batch_size, test_acc))
 
 
 if __name__=='__main__':
-    hidden_layers = 3
-    hidden_neurons = [300,100,100,50]
+    hidden_neurons_layers = [1024,512,512,256,256,128]
     lr = 0.01
     batch_size = 100
-    GACNN(hidden_layers=hidden_layers,hidden_neurons=hidden_neurons,lr=lr,batch_size=batch_size)
+    GACNN(hidden_neurons=hidden_neurons_layers,lr=lr,batch_size=batch_size)
 
 
 

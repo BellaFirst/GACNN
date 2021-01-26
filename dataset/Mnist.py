@@ -1,8 +1,9 @@
-import torch
+import torch.nn as nn
 import pdb
 from torchvision import transforms,datasets
 from torch.utils.data import DataLoader,random_split
-
+from PIL import Image
+import numpy as np
 """
 Mnist:
 28*28,
@@ -46,8 +47,22 @@ class Mnist():
         self.mnist_testdata = mnist_test_dataloader
         return self.mnist_testdata
 
+def img_show(img):
+    pil_img = Image.fromarray(np.uint8(img))
+    pil_img.save('tt.png')
+    # pil_img.show()
+
 if __name__=='__main__':
     batch_size = 100
     Mnist = Mnist(batch_size)
     traindata,validdata = Mnist.Download_Train_Valid()
-    print(len(traindata)) #分批次了)
+    for i, data in enumerate(traindata, 0):
+        images, labels = data  # labels是具体的数值
+        images, labels = images.cuda(), labels.cuda()
+        images = images.view(images.size(0), -1)  # 把图片拉平
+
+        img0 = images[0].cpu()
+        img0 = img0.reshape(28,28)
+
+        # pdb.set_trace()
+        img_show(img0)
