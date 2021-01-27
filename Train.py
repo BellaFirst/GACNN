@@ -98,13 +98,14 @@ def test(net, test_loader):
     return acc
 
 
-def GACNN(hidden_neurons,lr,batch_size):
+def GACNN(hidden_neurons, lr, batch_size):
+    # pdb.set_trace()
     args = parser()
     cfg = Config.fromfile(args.config)
     log = Logger(cfg.PARA.utils_paths.log_path+ 'GACNN' + '_log.txt',level='info')
 
     log.logger.info('==> Preparing dataset <==')
-    mnist = Mnist(batch_size=batch_size)
+    mnist = Mnist(batch_size=100)
     train_loader, valid_loader = mnist.Download_Train_Valid()
     test_loader = mnist.Download_Test()
 
@@ -117,6 +118,7 @@ def GACNN(hidden_neurons,lr,batch_size):
     net = MyFC2(in_dim=28*28, out_dim=10, neurons=hidden_neurons)
     net = net.cuda()
     print(net)
+
     criterion = nn.CrossEntropyLoss().cuda()
     optimizer = optim.SGD(net.parameters(), lr=lr)#, momentum=cfg.PARA.train.momentum
 
@@ -132,13 +134,13 @@ def GACNN(hidden_neurons,lr,batch_size):
     with open(cfg.PARA.GACNN_params.save_data_txt,'a') as f:
         f.write('hidden_neurons=%s,Learning_rate=%.03f,batch_size=%d,Acc=%.5f\n'
                 % (str(hidden_neurons), lr, batch_size, test_acc))
-
+    return test_acc
 
 if __name__=='__main__':
     hidden_neurons_layers = [1024,512,512,256,256,128]
     lr = 0.01
     batch_size = 100
-    GACNN(hidden_neurons=hidden_neurons_layers,lr=lr,batch_size=batch_size)
+    GACNN(hidden_neurons=hidden_neurons_layers, lr=lr, batch_size=batch_size)
 
 
 

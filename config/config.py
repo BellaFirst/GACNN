@@ -1,11 +1,21 @@
 PARA = dict(
     GACNN_params=dict(
+        MAXGEN = 30, #进化代数
+        maxormins = 1, #表示目标函数最小最大化标记，1表示最小化，-1表示最大化 #为1的话，输出为较大值，现在要的是测试的acc的较大值
+        xov_rate = 0.7, #交叉概率
+        mut_rate = 0.05, #变异概率
+        Nind = 10, #种群大小
+        num_hidden_neurons = 6, #隐藏层神经元个数
+
         epoch=20,
-        num_layers=6,  # 5表示下限，10表示上限
-        num_neurons=[16, 256],
-        lr=[0.0001, 0.2],
-        batch_size=[1, 2],  # 之后要重新乘以100
+
+        # num_layers=6,  # 5表示下限，10表示上限
+        hidden_neurons=[16, 1024],
+        lr=[1, 1000], #lr = lr/10000
+        batch_size=[1, 2],  # 之后要重新乘以100 batch_size = batch_size * 100
+
         save_data_txt = './cache/data/SaveData.txt',
+        save_bestdata_txt = './cache/data/BestData.txt',
         checkpoint_path = './cache/checkpoint/',
         # activate_func = ['Relu','sigmoid','tanh'],
     ),

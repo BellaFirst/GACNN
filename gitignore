@@ -1,1 +1,7 @@
 cache/
+nohup.out
+result.svg
+Main.py
+__pycache__/
+.git/
+.pytest_cache/

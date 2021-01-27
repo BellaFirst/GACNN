@@ -12,7 +12,7 @@ test_data: 10000
 """
 
 class Mnist():
-    def __init__(self,batch_size):
+    def __init__(self, batch_size):
         self.tf = transforms.Compose([
             transforms.ToTensor(),
             transforms.Normalize([0.5],[0.5])
